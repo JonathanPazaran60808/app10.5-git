@@ -1,0 +1,768 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DESAUPOO</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+    <!--grupo JavaScript-->
+	<script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js" type="text/javascript"></script>
+
+	<script src="phonegap.js"></script><!-- necesario*/-->
+    
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/analisis2.jpg','imagenes/deseno.jpg','imagenes/codificacion2.jpg','imagenes/prientada2.jpg','imagenes/datos2.jpg','imagenes/consulta2.jpeg')">
+<div data-role="page" id="Principal" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>DESAUPOO</h1>
+    </div>
+    
+    <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>MUSICA</h1>
+     <div>
+      <p>Musica para pasar el rato :V</p>
+      <br>
+     </div>
+     <div>
+     	<audio src="audio/NyxTheShield - You Are Not Alone.mp3" controls type="audio/mpeg" preload="preload"></audio>
+     	<br>
+     	<br>
+      <img src="\DAM\3er PARCIAL\aplicaciones\app10\imagenes/musica.jpg" width="50%" height="50%">
+      </div>
+    </div>
+   </div>
+
+
+ <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>PAGINA</h1>
+     <div>
+      <p>PAGINA DEL TUTOR</p>
+      <br>
+     </div>
+     <div>
+     	
+     	 <div data-role="main" class="ui-content" align="center" >
+ <div style="width:20%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a data-role="button" <a href="https://damcbtis16.milaulas.com/" target="_self">
+ <h2>Informacion</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+     
+      </div>
+    </div>
+   </div>
+    
+    
+   <div data-role="main" class="ui-content">
+   <div>
+   
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#page1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>ANALISIS DE UN SISTEMA DE DATOS</h2>
+    </a>
+    </li>
+    
+    
+    <li class="ui-first-child ui-last-child">
+    <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>DISEÑO</h2>
+    </a>
+    </li>
+    
+    <li class="ui-first-child ui-last-child">
+    <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>CODIFICACION</h2>
+    </a>
+    </li>
+    
+    <li class="ui-first-child ui-last-child">
+    <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>INTRODUCCION A LA PROGRAMACION ORIENTADA A OBJETOS</h2>
+    </a>
+    </li>
+    
+    <li class="ui-first-child ui-last-child">
+    <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>VISUAL BASIC</h2>
+    </a>
+    </li>
+    
+    <li class="ui-first-child ui-last-child">
+    <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>OBJETOS</h2>
+    </a>
+    </li>
+    
+    <li class="ui-first-child ui-last-child">
+    <a href="#page7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>DATOS</h2>
+    </a>
+    </li>
+    
+    <li class="ui-first-child ui-last-child">
+    <a href="#page8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>MANUAL TECNICO</h2>
+    </a>
+    </li>
+    
+    <li class="ui-first-child ui-last-child">
+    <a href="#page9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>MANUAL DE USUARIO</h2>
+    </a>
+    </li>
+    
+    
+     <li class="ui-first-child ui-last-child">
+    <a href="#page11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>DATOS DEL DESARROLLADOR</h2>
+    </a>
+    </li>
+    
+   </ul>
+  </div>
+  </div>
+ 
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>APLIACACION 10,JDCP</h4>
+     <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div> 
+  
+  
+ <div data-role="page" id="page1" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h2>ANALISIS DE UN SISTEMA DE DATOS</h2>
+    </div>
+   <div data-role="content" align="center">
+   <font color="#FF00FF">
+     <h2>
+     El Análisis de Datos (Data Analysis, o DA) es la ciencia que examina datos en bruto con el propósito de sacar conclusiones sobre la información.<br> El análisis de datos es usado en varias industrias para permitir que las compañías y las organizaciones tomen mejores decisiones empresariales y también es usado en las ciencias para verificar o reprobar modelos o teorías existentes.<br> El análisis de datos se distingue de la extracción de datos por su alcance, su propósito y su enfoque sobre el análisis. 
+     </h2>
+     </font>
+     <div >
+     <!--aqui va lo demas-->
+     
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>USOS</h1>
+     <div>
+      <h2>
+     <font color="#FF00FF">
+      Mercadotecnia:<br><br>
+       el analisis de datos se ha usado principalmente para predecir el comportamiento de los consumidores, incluso para poder calificarlo.<br><br>
+ 
+Recursos Humanos:
+<br><br> el analisis de datos también es muy útil dentro de la empresa para mantener un buen clima laboral , y fuera de ella, calificando empleados potenciales.<br><br>
+ 
+Académicos:<br><br> Al igual que las empresas el analisis de datos también está presente en la educación, sirve para seleccionar a los alumnos de nuevo ingreso y para medir el rendimiento de los alumnos.
+      </font>
+      </h2>
+      <br>
+      <br>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/analisis2.jpg',1)"><img src="imagenes/analizis.jpg" width="266" height="189" id="Image8"></a> </div>
+     <div>
+      </div>
+    </div>
+   </div>
+     
+      <div data-role="main" class="ui-content" align="center" >
+ <div style="width:20%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a data-role="button" <a href="https://www.questionpro.com/es/analisis-de-datos.html" target="_self">
+ <h2>Informacion</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+
+     
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  	<h4>APLIACACION 10,JDCP</h4>
+     <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+  
+  
+ <div data-role="page" id="page2" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h2>DISEÑO</h2>
+    </div>
+    <div data-role="content" align="center">
+     <font color="#FF00FF">
+      <h2>Una base de datos bien diseñada brinda a los usuarios acceso a información fundamental.<br> Al seguir los principios de esta página, puedes diseñar una base de datos que funcione bien y se adapte a tus necesidades futuras. </h2>
+      </font>
+     <div>
+     
+     <!--aqui va lo demas-->
+     <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>ETAPAS</h1>
+     <div>
+     <font color="#FF00FF">
+     <h2>
+    1. Análisis de los requisitos o identificación del propósito de tu base de datos.
+     <br>
+2.Organización de los datos en tablas.
+<br>
+3.Especificación de las claves primarias y análisis de las relaciones.
+<br>
+4.Normalización para estandarizar las tablas.
+     </h2>
+     </font>
+     <br>
+     <br>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/deseno.jpg',1)"><img src="imagenes/diseno2.jpg" width="561" height="399" id="Image9"></a> </div>
+     <div>
+      </div>
+    </div>
+   </div>
+     
+     <div data-role="main" class="ui-content" align="center" >
+ <div style="width:20%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a data-role="button" <a href="https://www.lucidchart.com/pages/es/tutorial-de-estructura-y-dise%C3%B1o-de-bases-de-datos" target="_self">
+ <h2>Informacion</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+     
+     
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  	<h4>APLIACACION 10,JDCP</h4>
+     <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+ </div>
+ 	
+    
+     <div data-role="page" id="page3" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h2>CODIFICACION</h2>
+    </div>
+    <div data-role="content" align="center">
+    <font color="#FF00FF">
+      <h2>Los sistemas de codificación y la necesidad de la clasificación surge<br> en la necesidad de registrar, enmascarar, ordenar, identificar, agrupar y clasificar fenómenos y para facilitar su registro y transmisión.<br> Ejemplos: códigos Morse, escrituras en claves, códigos de clasificación bibliotecaria, códigos de productos, etc.</h2>
+      </font>
+     <div>
+     
+      <!--aqui va lo demas-->
+     <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>TIPOS DE CODIFICACION</h1>
+     <div>
+     <font color="#FF00FF">
+     <h2>
+     JIS (Japanese Industrial Standar).<br><br> Es utilizado principalmente en comunicaciones, por ejemplo correo electrónico, porque utiliza solo 7 bits para cada carácter. Usa secuencias de escape para conmutar entre los modos de uno y dos bytes por carácter y para conmutar entre los diversos juegos de caracteres. <br><br>
+Shift-JIS<br><br> Introducido por Microsoft y utilizado en el sistema MS-DOS, es el sistema que soporta menos caracteres. Cada byte debe ser analizado para ver si es un carácter o es el primero de un dúo. <br><br>
+EUC (Extended Unix Code).<br><br> Este sistema es utilizado como método de codificación interna en la mayoría de plataformas Unix. Acepta caracteres de más de dos bytes, por lo que es mucho más extensible que el Shift-JIS, y no está limitado a la codificación del idioma japonés. Resulta muy adecuado para el manejo de múltiples juegos de caracteres. <br><br>
+UTF-8 (Unicode transformation format).<br><br> En este sistema, cada carácter se representa mediante una secuencia de 1 a 4 bytes, aunque en realidad, el número de bits destinados a representar el carácter se limita a un máximo de 21 (el resto son metadatos -información sobre información-). El objeto de estos metadatos es que la secuencia pueda ser interpretada a partir de cualquier posición.
+     </h2>
+     </font>
+     <br>
+     <br>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/codificacion2.jpg',1)"><img src="imagenes/codificacion.jpg" width="674" height="420" id="Image10"></a> </div>
+     <div>
+      </div>
+    </div>
+   </div>
+
+     
+    <div data-role="main" class="ui-content" align="center" >
+ <div style="width:20%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a data-role="button" <a href="https://www.ecured.cu/Sistema_de_codificaci%C3%B3n" target="_self">
+ <h2>Informacion</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+     
+     
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  	<h4>APLIACACION 10,JDCP</h4>
+      <img src="imagenes/icono.png" width="56" height="46">
+   </div>
+  </div>
+ </div>
+    
+    
+     <div data-role="page" id="page4" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h2>INTRODUCCION A LA PROGRAMACION ORIENTADA A OBJETOS</h2>
+    </div>
+    <div data-role="content" align="center">
+    <font color="#FF00FF">
+      <h2>Programación orientada a objetos (POO).<br>
+       Es un paradigma de programación que usa objetos y sus interacciones, para diseñar aplicaciones y programas informáticos.<br> Está basado en varias técnicas, incluyendo herencia, abstracción, polimorfismo y encapsulamiento.<br> Su uso se popularizó a principios de la década de los años 1990.<br> En la actualidad, existe variedad de lenguajes de programación que soportan la orientación a objetos.</h2>
+      </font>
+     <div>
+       <!--aqui va lo demas-->
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>CARACTERISTICAS</h1>
+     <div>
+      <font color="#FF00FF">
+      <h2>
+      El estado<br><br>
+Está compuesto de datos, será uno o varios atributos a los que se habrán asignado unos valores concretos (datos).<br><br>
+El comportamiento<br><br>
+está definido por los procedimientos o métodos con que puede operar dicho objeto, es decir, qué operaciones se pueden realizar con él.<br><br>
+La identidad<br><br>
+Es una propiedad de un objeto que lo diferencia del resto, dicho con otras palabras, es su identificador (concepto análogo al de identificador de una variable o una constante).
+      </h2>
+      </font>
+      <br>
+      <br>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/prientada2.jpg',1)"><img src="imagenes/orientada.jpg" width="480" height="360" id="Image11"></a> </div>
+     <div>
+      </div>
+    </div>
+   </div>
+
+     
+     <div data-role="main" class="ui-content" align="center" >
+ <div style="width:20%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a data-role="button" <a href="https://www.ecured.cu/Programaci%C3%B3n_Orientada_a_Objetos" target="_self">
+ <h2>Informacion</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+     
+     
+     
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  	<h4>APLIACACION 10,JDCP</h4>
+      <img src="imagenes/icono.png" width="56" height="46">
+   </div>
+  </div>
+ </div>
+    
+    
+     <div data-role="page" id="page5" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h2>VISUAL BASIC</h2>
+    </div>
+    <div data-role="content" align="center">
+      <font color="#FF00FF">
+      <h2>El Visual Basic ha sido desarrollado con el objetivo de entregar a los usuarios de programación informática un paquete de utilidades simples y accesibles.<br> Es por esto que el Visual Basic puede ser usado y fácilmente comprendido por expertos como también por usuarios principiantes. <br>
+      <br>
+      <br>
+     1. Inicie Visual Studio.<br>
+
+2.En la barra de menús, elija Archivo, Nuevo, Proyecto.<br>
+
+3.En el panel Plantillas instaladas, elija Visual Basic o Visual C#.<br>
+
+4.Encima del panel central, elija el marco de destino en la lista desplegable.<br>
+
+5.En el panel central, elija la plantilla Aplicación de Windows Forms.<br>
+
+6.En el cuadro de texto Nombre, especifique un nombre para el proyecto.<br>
+
+7.En el cuadro de texto Ubicación, elija una carpeta para guardar el proyecto.<br>
+
+8.Elija Aceptar.
+</h2>
+      </font>
+      <br>
+      <br>
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/visual.jpg" alt="visual" title="visual" id="wows1_0"/></li>
+		<li><img src="data1/images/nuevo_proyecto.jpg" alt="nuevo proyecto" title="nuevo proyecto" id="wows1_1"/></li>
+		<li><img src="data1/images/lista_desplegable.jpg" alt="lista desplegable" title="lista desplegable" id="wows1_2"/></li>
+		<li><img src="data1/images/plantillas.jpg" alt="plantillas" title="plantillas" id="wows1_3"/></li>
+		<li><img src="data1/images/windows_from.jpg" alt="windows from" title="windows from" id="wows1_4"/></li>
+		<li><img src="data1/images/nombre_del_proyecto.jpg" alt="nombre del proyecto" title="nombre del proyecto" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/direccion.jpg" alt="css slider" title="direccion" id="wows1_6"/></a></li>
+		<li><img src="data1/images/aceptar.jpg" alt="aceptar" title="aceptar" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="visual"><span><img src="data1/tooltips/visual.jpg" alt="visual"/>1</span></a>
+		<a href="#" title="nuevo proyecto"><span><img src="data1/tooltips/nuevo_proyecto.jpg" alt="nuevo proyecto"/>2</span></a>
+		<a href="#" title="lista desplegable"><span><img src="data1/tooltips/lista_desplegable.jpg" alt="lista desplegable"/>3</span></a>
+		<a href="#" title="plantillas"><span><img src="data1/tooltips/plantillas.jpg" alt="plantillas"/>4</span></a>
+		<a href="#" title="windows from"><span><img src="data1/tooltips/windows_from.jpg" alt="windows from"/>5</span></a>
+		<a href="#" title="nombre del proyecto"><span><img src="data1/tooltips/nombre_del_proyecto.jpg" alt="nombre del proyecto"/>6</span></a>
+		<a href="#" title="direccion"><span><img src="data1/tooltips/direccion.jpg" alt="direccion"/>7</span></a>
+		<a href="#" title="aceptar"><span><img src="data1/tooltips/aceptar.jpg" alt="aceptar"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     <div>
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  	<h4>APLIACACION 10,JDCP</h4>
+     <img src="imagenes/icono.png" width="56" height="46">
+   </div>
+  </div>
+ </div>
+ 
+ 
+  <div data-role="page" id="page6" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h2>OBJETOS</h2>
+    </div>
+    <div data-role="content" align="center">
+       <font color="#FF00FF">
+      <h2>ALGUNOS OBJETOS BASICOS DE VISUAL BASIC SON:</h2>
+      </font>
+     <div>
+     <!--aqui va lo demas-->
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>BOTONES</h1>
+     <div>
+     <font color="#FF00FF">
+      <h2>En Visual Studio o más bien visual Basic los botones son una herramienta fundamental que a menudo sirve como detonante de una nueva función, al realizar una acción como darle clic a un botón el código fuente comienza a seguir la estructura de la programación.</h2>
+      </font>
+      <br>
+     </div>
+     <div>
+      </div>
+    </div>
+   </div>
+   
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>IMAGENES</h1>
+     <div>
+     <font color="#FF00FF">
+      <h2>El cuadro de imagen en Visual Basic es un lugar para presentar imágenes en un particular diseño de formulario. El cuadro de imagen no es estático, es una ventana donde los programadores o incluso los usuarios pueden cambiar en cualquier momento la imagen que se muestra. El cuadro de imagen presenta un control que es muy flexible.</h2>
+      </font>
+      <br>
+     </div>
+     <div>
+      </div>
+    </div>
+   </div>
+   
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>COMBO BOX</h1>
+     <div>
+      <font color="#FF00FF">
+      <h2>Los formularios Windows Forms ComboBox control se utiliza para mostrar datos en un cuadro combinado desplegable. De forma predeterminada, el ComboBox control aparece en dos partes: la parte superior es un cuadro de texto que permite al usuario escribir un elemento de lista. La segunda parte es un cuadro de lista que muestra una lista de elementos desde el que el usuario puede seleccionar uno.</h2>
+      </font>
+      <br>
+     </div>
+     <div>
+      </div>
+    </div>
+   </div>
+   
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>TIMER</h1>
+     <div>
+     <font color="#FF00FF">
+      <h2>El control Timer es un temporizador que nos permite ejecutar instrucciones de código, rutinas, funciones etc..., cada cierto intervalo de tiempo.
+
+Este control es invisible en tiempo de ejecución, esto quiere decir que no tiene interfaz gráfica, solo es visible cuando lo agregamos a un formulario y estamos en modo de diseño .
+
+La propiedad mas importante de este control es la propiedad Interval</h2>
+      </font>
+      <br>
+     </div>
+     <div>
+      </div>
+    </div>
+   </div>
+     
+     
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/botn2.jpg" alt="botn2" title="botn2" id="wows2_0"/></li>
+		<li><img src="data2/images/boton1.jpg" alt="boton1" title="boton1" id="wows2_1"/></li>
+		<li><img src="data2/images/combobox1.jpg" alt="combobox1" title="combobox1" id="wows2_2"/></li>
+		<li><img src="data2/images/combobox2.jpg" alt="combobox2" title="combobox2" id="wows2_3"/></li>
+		<li><img src="data2/images/imagen1.jpg" alt="imagen1" title="imagen1" id="wows2_4"/></li>
+		<li><img src="data2/images/imagen2.jpg" alt="imagen2" title="imagen2" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/timer.jpg" alt="wowslider" title="timer" id="wows2_6"/></a></li>
+		<li><img src="data2/images/timer2.jpg" alt="timer2" title="timer2" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="botn2"><span><img src="data2/tooltips/botn2.jpg" alt="botn2"/>1</span></a>
+		<a href="#" title="boton1"><span><img src="data2/tooltips/boton1.jpg" alt="boton1"/>2</span></a>
+		<a href="#" title="combobox1"><span><img src="data2/tooltips/combobox1.jpg" alt="combobox1"/>3</span></a>
+		<a href="#" title="combobox2"><span><img src="data2/tooltips/combobox2.jpg" alt="combobox2"/>4</span></a>
+		<a href="#" title="imagen1"><span><img src="data2/tooltips/imagen1.jpg" alt="imagen1"/>5</span></a>
+		<a href="#" title="imagen2"><span><img src="data2/tooltips/imagen2.jpg" alt="imagen2"/>6</span></a>
+		<a href="#" title="timer"><span><img src="data2/tooltips/timer.jpg" alt="timer"/>7</span></a>
+		<a href="#" title="timer2"><span><img src="data2/tooltips/timer2.jpg" alt="timer2"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     
+     
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  	<h4>APLIACACION 10,JDCP</h4>
+     <img src="imagenes/icono.png" width="56" height="46">
+   </div>
+  </div>
+ </div>
+ 
+ 
+  <div data-role="page" id="page7" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h2>DATOS</h2>
+    </div>
+    <div data-role="content" align="center">
+      <font color="#FF00FF">
+      <h2>En na base de datos existen diferentes tipos de datos:
+      <br>
+      DATOS DE SUBIDA
+      <br>
+      <br>
+      Son aquellos datos que se suben o se publican en el programa y los guarda en la base de datos de la misma
+      <br><br>
+      DATOS DE BAJADA
+      <br>
+      <br>
+      Son aquellos datos que se eliminan del progrma y se dan de baja en la base de datos de la misma
+      <br><br>
+      MODIFICACION DE DATOS
+      <br><br>
+      Debe de ser posible modificar los datos sin perder su comparacion con otros o causar problemas
+      <br><br>
+      CONSULTA DE DATOS
+       <br><br>
+       se debe poder consultar los datos sin salir del programa siempre actualizandose en caso de subida,bajada o modificacion de ellos
+      </h2>
+      </font>
+      <br>
+      <br>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image49','','imagenes/datos2.jpg',1)"><img src="imagenes/datos.jpg" width="624" height="352" id="Image49"></a>
+      <br>
+      <br>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/consulta2.jpeg',1)"><img src="imagenes/consulta.jpg" width="402" height="325" id="Image50"></a>
+<div>
+</div>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  	<h4>APLIACACION 10,JDCP</h4>
+     <img src="imagenes/icono.png" width="56" height="46">
+   </div>
+  </div>
+ </div>
+ 
+ 
+  <div data-role="page" id="page8" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h2>MANUAL TECNICO</h2>
+    </div>
+    <div data-role="content" align="center">
+       <font color="#FF00FF">
+      <h2>Un manual técnico es aquel que va dirigido a un público con conocimientos técnicos sobre algún área.<br>
+La documentación de proyectos es importante para identificar mas fácilmente los aspectos y características que forman parte de un proyecto. Una adecuada documentación le proporciona identidad y "personalidad" a un proyecto, de manera que los usuarios irresponsables del mismo podrán reconocer mas fácilmente las ventajas y desventajas, características y funcionalidades, funciones y ventajas, así como costos y beneficios que impliquen el desarrollo del proyecto</h2>
+      </font>
+     <div>
+     
+     <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>ESTRUCTURA</h1>
+     <div>
+      <font color="#FF00FF">
+      <h2>1. Índice<br><br>
+Relación de los capítulos y páginas correspondientes que forman parte del documento<br>
+2. Introducción.<br><br>
+Se debe presentar una breve descripción del sistema desarrollado, que contemple el ámbito abarcado, cual es su función principal y un detalle de las funciones macros o partes que lo componen. Puede incluir un mensaje de la máxima autoridad de las áreas comprendidas en el manual.<br>
+2.1. Objetivo general del sistema<br><br>
+Se debe de describir el objetivo general del sistema.<br>
+2.2. Objetivos específicos<br><br>
+Se deben describir brevemente los objetivos específicos que se cumplieron con el desarrollo del sistema.<br>
+3. Contenido técnico<br><br>
+3.1. Definición de reglas del negocio implementadas en el sistema desarrollado.<br><br>
+3.2. Diagramas de flujo de datos, junto con su respectivo diccionario de datos.<br><br>
+3.3. Controles de auditoria implementados en el sistema.<br><br>
+3.4. Descripción de campos requeridos por pantalla con presentación de pantallas.<br><br>
+3.5. Diagrama de navegación del sistema.<br><br>
+3.6. Requerimientos de interfase con otros sistemas.<br><br>
+3.7. Modelo lógico de datos, diagrama entidad-relación.<br><br>
+3.8. Modelo de datos físico, junto con su respectivo diccionario de datos.<br><br>
+3.9. Matriz de procesos versus organización.<br><br>
+3.10. Matriz de programas versus entidades.<br><br>
+3.11. Plataforma de usuario.<br><br> Aquí se describen los requerimientos mínimos que se deben tener tanto de hardware como de software para que el sistema se pueda instalar y ejecutar correctamente (en caso de que se considere necesario).<br><br>
+3.12. Áreas de aplicación y/o alcance de los procedimientos. Esfera de acción que cubren los procedimientos<br><br>
+4. Responsables.<br><br>
+
+4.1. Mapa de navegación<br><br>. 
+4.2. Descripción gráfica del mapa de navegación.<br><br>.
+4.3. Describe paso a paso los procesos, así como pantallas, botones, cuadros de texto, etc., pero también se muestra el código de cada rutina, pantalla, botón, etc. es decir, se muestra lo que hay detrás de la interfaz del usuario </h2>
+      </font>
+      <br>
+     </div>
+     <div>
+      </div>
+    </div>
+   </div>
+     
+     <div data-role="main" class="ui-content" align="center" >
+ <div style="width:20%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a data-role="button" <a href="http://manualtcnico.blogspot.com/" target="_self">
+ <h2>Informacion</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+     
+     
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  	<h4>APLIACACION 10,JDCP</h4>
+     <img src="imagenes/icono.png" width="56" height="46">
+   </div>
+  </div>
+ </div>
+ 
+ 
+  <div data-role="page" id="page9" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h2>MANUAL DE USUARIO</h2>
+    </div>
+    <div data-role="content" align="center">
+       <font color="#FF00FF">
+      <h2>n manual es una publicación que incluye los aspectos fundamentales de una materia. Se trata de una guía que ayuda a entender el funcionamiento de algo, o bien que educa a sus lectores acerca de un tema de forma ordenada y concisa. Un usuario es, por otra parte, la persona que usa ordinariamente algo o que es destinataria de un producto o de un servicio.</h2>
+      </font>
+      <br>
+      <br>
+      <img src="imagenes/manual de usuario.jpg" width="50%" height="50%">
+     <div>
+     
+      <div data-role="main" class="ui-content" align="center" >
+ <div style="width:20%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a data-role="button" <a href="https://definicion.de/manual-de-usuario/" target="_self">
+ <h2>Informacion</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+     
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  	<h4>APLIACACION 10,JDCP</h4>
+     <img src="imagenes/icono.png" width="56" height="46">
+   </div>
+  </div>
+ </div>
+ 
+ 
+ 
+ <div data-role="page" id="page11" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h2>DATOS DEL DESARROLLADOR</h2>
+    </div>
+    <div data-role="content" align="center">
+    <font color="#FF00FF">
+      <h2>NOMBRE: JONATHAN DANIEL CRUZ PAZARAN<br><br>
+      EDAD:16 AÑOS<br><br>
+      GENERO: MASCULINO<br><br>
+      CARRERA:PROGRAMACION<br><br>
+      ESTUDIOS:CBTIS 16<br><br>
+      DIRECCION:RIO LERMA #603 COL.ALTAVISRA
+      </h2>
+      </font>
+      <br>
+      <br>
+      <img src="imagenes/yo.jpg" width="50%" height="50%">
+     <div>
+     
+     
+     
+     
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  	<h4>APLIACACION 10,JDCP</h4>
+     <img src="imagenes/icono.png" width="56" height="46">
+   </div>
+  </div>
+ </div>
+ 
+    
+</body>
+</html>
